@@ -14,7 +14,7 @@ function Dashboard() {
     { field: "make" },
     { field: "model" },
     { field: "price" },
-    { field: "electric" }
+    { field: "electric"}
   ]
   return (
     <div>
