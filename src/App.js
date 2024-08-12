@@ -12,16 +12,12 @@ const get_content = (sidebar_tab) => {
   switch (sidebar_tab) {
     case "dashboard":
       return <Dashboard />
-      break;
     case "products":
       return <Products />
-      break;
     case "customers":
       return <Customers />
-      break;
     case "categories":
       return <Categories />
-      break;
     default:
       return <Dashboard />
   }

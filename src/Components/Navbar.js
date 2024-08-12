@@ -22,7 +22,7 @@ function Navbar() {
             justifyContent: "space-between",
             width: "100%"
           }}>
-          <img src='/project_x_logo.png' style={{width: 40}}/>
+          <img alt='project_x_logo' src='/project_x_logo.png' style={{width: 40}}/>
           <UserMenu />
         </div>
         

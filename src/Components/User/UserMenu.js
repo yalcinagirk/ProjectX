@@ -1,4 +1,4 @@
-import { Button, Dropdown, Layout, Menu, message } from 'antd';
+import { Dropdown } from 'antd';
 import { UserOutlined, LogoutOutlined, SettingOutlined } from '@ant-design/icons';
 
 
@@ -10,13 +10,9 @@ const items = [
 ]
 
 function UserMenu() {
-  const handleMenuClick = (e) => {
-    message.info('Click on menu item.');
-    console.log('click', e);
-  };
   const menuProps = {
     items,
-    onClick: handleMenuClick,
+    onClick: () => {},
   };
   return (
     <div style={{display: "flex", alignItems: "center"}}>
